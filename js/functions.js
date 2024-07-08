@@ -1,6 +1,6 @@
 function createCard(product){
 return`
-<div class="card">
+<div class="card" data-id="${product.id}">
 <div class="card_img">
   <img
     src="${product.attributes.image}"
