@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  max-width: 1088px;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  padding: 30px 0;
+  /* display: none; */
+  background-color: #f0f6ff;
+}
+.header_container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  padding: 9px 15px;
+  border-radius: 7px;
+  background-color: #057aff;
+}
+.logo a {
+  color: #fff;
+  font-size: 28px;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+header a {
+  text-decoration: none;
+  color: #000;
+  transition: all 1s;
+}
+header ul li a:hover {
+  color: blue;
+  transition: all 0.5s ease-in-out;
+  /* transform: translate( , -25px); */
+  text-decoration: underline;
+}
+#loader{
+display: none;
+}
+.container {
+  max-width: 1088px;
+  width: 100%;
+  margin: 0 auto;
+}
+img {
+  width: 512px;
+  height: 384px;
+  border-radius:6px;
+}
+.info-product{
+display: flex;
+justify-content: space-between;
+}
+.part-info{
+    width: 512px;
+    height: 384px;
+    /* padding-top: 60px; */
+}
+h2{
+font-size: 35px;
+color:#394E6A;
+margin-bottom: 15px;
+}
+.h3{
+color:#C7C9D1;
+margin-bottom: 15px;
+}
+.price{
+margin-bottom: 30px;
+color:#394E6A;
+}
+p{
+font-size: 16px;
+color:#394E6A;
+line-height: 30px;
+margin-bottom: 30px;
+}
+/* .selectwrapper{
+display: block;
+} */
+select{
+width: 250px;
+height: 35px;
+border: 1px solid blue;
+border-radius: 4px;
+margin-bottom: 25px;
+}
+.addtocart{
+width: 110px;
+height: 36px;
+border:1px solid #057AFF;
+border-radius: 4px;
+background-color: #fff;
+}
+.addtocart:hover{
+    width: 110px;
+    height: 36px;
+    color:#fff;
+    transition: All 0.5s ease-in;
+    border:1px solid #057AFF;
+    border-radius: 4px;
+    background-color: #5f96da;
+    }
+option{
+font-size: 16px;
+}
+.header{
+margin: 15px;
+display: flex;
+align-items: center;
+gap: 5px;
+}
+.header a {
+text-decoration: none;
+color: #394E6A;
+}
+.header i {
+color: #394E6A;
+}

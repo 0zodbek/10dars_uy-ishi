@@ -17,9 +17,13 @@ data.data.length > 0 && data.data.forEach(el => {
     
 });
 const cards = document.querySelectorAll('.card');
-cards.length > 0 && cards.forEach(el => {
-    el.addEventListener('click',function(event){
-    console.log(this.id);
+cards.length > 0 && cards.forEach(function(card){
+    card.addEventListener('click',function(event){
+        const cardId = card.getAttribute('data-id')
+        console.log(cardId);
+        if(cardId){
+        window.location.assign(`http://127.0.0.1:5500/pages/details.html?id=${cardId}`)
+        }
     })
 });
 })

@@ -28,6 +28,7 @@ margin: 0 auto;
 header{
     padding: 30px 0;
     display: none;
+    background-color: #F0F6FF;
 }
 .header_container{
     position: relative;
